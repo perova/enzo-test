@@ -1,0 +1,40 @@
+.tm-info-boxes {
+	&.style-metro {
+		.grid-item {
+			&.has-image {
+				background-position: center;
+				background-size: cover;
+				background-repeat: no-repeat;
+			}
+		}
+		.box-content {
+			display: table;
+			width: 100%;
+			height: 100%;
+		}
+		.box-content-inner {
+			display: table-cell;
+			padding: 30px 70px;
+			vertical-align: middle;
+		}
+		.box-title {
+			margin-bottom: 18px;
+			color: #f2b636;
+			font-size: 32px;
+			line-height: 1.16;
+		}
+		.box-text {
+			color: #ffffff;
+		}
+	}
+}
+
+@media (max-width: 1600px) {
+	.tm-info-boxes {
+		&.style-metro {
+			.box-content-inner {
+				padding: 30px;
+			}
+		}
+	}
+}

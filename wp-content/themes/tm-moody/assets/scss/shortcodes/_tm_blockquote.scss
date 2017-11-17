@@ -1,0 +1,30 @@
+.tm-blockquote {
+	position: relative;
+	margin-bottom: 30px;
+	blockquote {
+		padding: 45px 40px 55px;
+		color: inherit;
+		font-size: inherit;
+		&:before {
+			display: none;
+		}
+	}
+	svg {
+		position: absolute;
+		top: 27px;
+		right: 27px;
+	}
+	.heading {
+		font-size: 20px;
+		margin-bottom: 8px;
+	}
+	&.skin-dark {
+		color: #ffffff;
+		.heading {
+			color: #ffffff;
+		}
+		path {
+			fill: #ffffff;
+		}
+	}
+}
